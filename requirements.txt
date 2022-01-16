@@ -108,11 +108,10 @@ requests==2.26.0
 ruamel.yaml==0.17.16
 ruamel.yaml.clib==0.2.6
 scp==0.14.1
-scrapli[asyncssh,genie,paramiko,textfsm,ttp]==2021.7.30
-# scrapli[ssh2]==2021.7.30 <-- Issues on MacOS
+scrapli[asyncssh,genie,paramiko,ssh2,textfsm,ttp]==2021.7.30
 scrapli-netconf==2021.7.30
 six==1.16.0
-# ssh2-python==0.26.0 <-- Issues on MacOS
+ssh2-python==0.26.0
 tenacity==8.0.1
 textfsm==1.1.2
 tftpy==0.8.0
